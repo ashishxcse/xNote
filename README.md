@@ -1,10 +1,10 @@
 
 
-# xBookHub — Full Stack python Django Library Management System
+# xNote — Full Stack python Django Todo List
 
 ##  Project Overview
 
-**xBookHub** is a full-stack web application designed to manage a digital library system. It allows users to **add, view, update, and delete books**, providing a complete CRUD-based solution.
+**xNote** is a full-stack web application designed to manage a Todo List. It allows users to **add, view, update, and delete task**, providing a complete CRUD-based solution.
 
 This project demonstrates and shows my hands on experiance on **backend development, frontend templating, and database integration** using **Python** **Django** ,**MVT architecture** and **Bootstrap**.
 
@@ -36,12 +36,10 @@ Through this project, I gained hands-on experience in:
 
 ##  Key Features
 
-*  Add new books with detailed metadata
-*  View all books in the library
-*  Update book information
-*  Delete books
-*  Genre classification
-*  Detailed description for each book
+*  Add new task with detailed metadata
+*  View all task in the list
+*  Update task information
+*  Delete task
 *  Dynamic routing for book-specific pages
 
 ##  Tech Stack
@@ -75,26 +73,13 @@ Through this project, I gained hands-on experience in:
 * App registration and configuration
 * Virtual environment setup
 
-###  Models & Database
-
-* Designed `Book` model with fields:
-
-  * Name
-  * Author
-  * Description
-  * Rating
-  * Genre
-* Performed:
-
-  * `makemigrations` and `migrate`
-* Used **Django ORM** for database operations
 
 ###  CRUD Operations
 
-* Create → Add new books
-* Read → Retrieve all books
-* Update → Edit book details
-* Delete → Remove books
+* Create → Add new task
+* Read → Retrieve all task
+* Update → Edit task discription
+* Delete → Remove task
 
 ---
 
